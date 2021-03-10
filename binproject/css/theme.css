@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0 50px 0 50px;
+    line-height: 1.5em;
+    color: white;
+}
+h1 {
+    -webkit-text-stroke: 1px black;
+    font-weight: 700;
+}
+/* Navigation */
+#navigation_bar {
+    background: linear-gradient(45deg, white, whitesmoke);
+    position: static;
+}
+#logo {
+    padding-left: 50px;
+}
+#brandname > h1 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    color: white;
+    -webkit-text-stroke: 1px black;
+    text-shadow: 2px 2px black;
+}
+#navlinks {
+    padding-right: 75px;
+}
+#navlinks a {
+    padding: 25px;
+    color: #333;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+#navlinks a:hover {
+    color: whitesmoke;
+    border-radius: 15px;
+    background: rgba(0, 0, 0, 0.363);
+}
+@media (max-width: 576px) {
+    #navlinks a {
+        padding-right: 50px;
+    }
+} 
+
+/* Showcase */
+#showcase {
+    background:url(img/coffee.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 75%;
+    border: white 3px solid;
+    min-height: 450px;     
+    text-align: center;
+    color:  #ffffff;
+    padding: 150px;
+}
+#showcase > h1 {
+    font-weight: bolder;
+    
+}
+#showcase > blockquote {
+    padding-left: 100px;
+    padding-right: 100px;
+    font-style: italic;
+}
+@media (max-width: 768px) {
+    #showcase > blockquote {
+        padding: 0
+    }
+}
+
+/* Newsletter */
+#newsletter {
+    background: linear-gradient(45deg,white, whitesmoke, lightgray);
+    display: flex;
+    justify-content: space-around;
+}
+#newsletter > h1 {
+    padding-left: 15px;
+}
+#newsletter > .form-inline {
+    padding-left: 15px;
+}
+#newsletter > .form-inline > #subscribe {
+    background-color: #333;
+    border: 1px solid #333;
+}
+
+/* Boxes */
+#boxes {
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
+#boxes .box {
+    width: 30%;
+    padding: 10px;
+}
+#boxes .box img {
+    border-radius: 50%;
+    background-color: #333;
+    width: 90px;
+}
+
+/* Footer */
+#footer {
+    background:linear-gradient(45deg, white, whitesmoke);
+    text-align: center;
+    padding: 20px;
+    color: black;
+}
+
+/* About Section */
+#main {
+    background:linear-gradient(45deg,white, whitesmoke, lightgray);
+    padding-top: 25px;
+    border: white 3px solid;
+    margin: 0 15px 0 15px;
+    padding-left: 50px;
+}
+#main > #main-col > p {
+    color: black;
+}
+#sidebar {
+    background: url(img/coffee.jpg);
+    background-position: center;
+    border-radius: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 15px;
+    border: 1px solid black;
+    margin: 50px;
+}
+@media (max-width: 568px) {
+    #sidebar {
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+/* Contacts */
+#contact-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+    background: url(img/notepad.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 75%;
+    border: 2px solid white;
+    margin: 0 5px 0 5px;
+}
+#main-col {
+    color: white;
+    padding: 25px;
+    padding-left: 75px;
+}
+#comment_bar {
+    background-color: #f3f3f3;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+#contacts li {
+    list-style: none;
+}
+.comments #send {
+    background-color: #333;
+    border: 1px solid #333;
+}
+@media (max-width: 576px) {
+    #contact-section {
+        padding: 0;
+    }
+}
