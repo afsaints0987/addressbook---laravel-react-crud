@@ -1,0 +1,67 @@
+:root {
+    --black: #323232;
+    --white: #fff;
+    --gray: #b6b6b6;
+    --green: #02bb41;
+    --yellow: #fcf61b;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family:'Franklin Gothic Heavy', 'Arial Narrow', Arial, sans-serif;
+}
+section h2 {
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+}
+li {
+    list-style-type: none;
+}
+
+/* ---------------- Navigation --------------------- */
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-size: 18px;  
+    flex-wrap: wrap;
+}
+
+.nav-list li {
+    margin-right: 50px;
+    padding-top: 20px;
+}
+.nav-list a {
+    text-transform: uppercase;
+    color: #323232;
+    font-weight: bold;
+    text-align: center;
+}
+.nav-list a:hover {
+    background: #323232;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    opacity: 75%;
+    text-align: center;
+}
+
+/* ---------------- Footer --------------------- */
+
+footer {
+    color: #fff;
+    text-align: center;
+    background-color: #323232;
+    padding: 30px 0 20px 0;
+}
+footer h4 {
+    font-size: 12px;
+}
