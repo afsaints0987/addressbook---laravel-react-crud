@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Favicon -->
+    <link rel="icon" href="assets/logo.png">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Karantina&family=Poppins&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/6378a4de81.js" crossorigin="anonymous"></script>
+
+    <!-- CSS Style -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <title>Senyor Barbero</title>
+</head>
+<body>
+    <!-- Navigation -->
+    <header>
+        
+        <nav class="nav-bar">
+            <button class="menu" id="dropdown">Menu</button>
+            <ul class="nav-list">
+                <li><a href="" class="active">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+            <img src="assets/logo3.png" class="logo" alt="logo">
+            <ul class="nav-links">
+                <li><a href=""><i class="fas fa-phone"></i> (1) 484 1234567</a></li>
+                <li><a href=""><i class="fab fa-facebook"></i></a></li>
+                <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                <li><a href=""><i class="fab fa-twitter"></i></a></li>
+            </ul>
+        </nav>
+
+        <!-- Hero Banner -->
+
+        <div class="hero-banner">
+            <div class="hero-banner-container">
+                <div class="hero-banner-content">
+                    <h1>Looking stylishly Good</h1>
+                    <button class="btn">Book Now</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- Subscribe to Newsletter -->
+    <div id="myModal" class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title">Subscribe our Newsletter</h3>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <p>Subscribe to our mailing list to get the latest updates straight in your inbox.</p>
+                    <form>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Name">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="Email Address">
+                        </div>
+                        <button type="submit" class="btn">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Service Section -->
+
+    <section id="services">
+        <h2>Services</h2>
+            <div class="service-container">
+                <div class="service-img" id="cut"></div>
+                <div class="service-content">
+                    <h3><a href="services.html">Cut</a></h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                        Dignissimos, explicabo nostrum, aspernatur quisquam unde 
+                        voluptatem accusamus dolores voluptas soluta eos pariatur.</p>
+                </div>
+            </div>
+            
+            <div class="service-container">
+                <div class="service-img" id="shave"></div>
+                <div class="service-content">
+                    <h3><a href="services.html">Fade / Shave</a></h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                        Dignissimos, explicabo nostrum, aspernatur quisquam unde 
+                        voluptatem accusamus dolores voluptas soluta eos pariatur.</p>
+                </div>
+            </div>
+            
+            <div class="service-container">
+                <div class="service-img" id="trim"></div>
+                <div class="service-content">
+                    <h3><a href="services.html">Beard Trim</a></h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                        Dignissimos, explicabo nostrum, aspernatur quisquam unde 
+                        voluptatem accusamus dolores voluptas soluta eos pariatur.</p>
+                </div>
+            </div>
+    </section>
+
+    <!-- About Section -->
+
+    <section id="about">
+        <div class="about-container">
+            <h2>Our Style</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                Quibusdam perspiciatis nesciunt quas deleniti velit exercitationem obcaecati atque doloremque veniam! 
+                Illo dignissimos fugit voluptate cumque esse tempore perferendis eos, non saepe!</p>
+                <button class="btn">Book Now</button>
+        </div>
+        <div class="about-img"></div>
+    </section>
+
+    <!-- Testimonials -->
+
+    <section id="testimonials">
+        <h2>Testimonials</h2>
+
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+            <ul class="carousel-indicators">
+                <li data-target="myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="myCarousel" data-slide-to="1" ></li>
+                <li data-target="myCarousel" data-slide-to="2" ></li>
+            </ul>
+
+            <div id="testi-container" class="carousel-inner">
+                <div class="carousel-item active" id="testi-content">
+                    <div class="testi-img" id="testi-1"></div>
+                    <div class="testi-text">
+                        <p>
+                            "Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                            Fuga quidem, reiciendis eligendi ab at tempora dolorum esse delectus corrupti quas qui illo optio porro itaque quia, 
+                            minus eum in animi."
+                        </p>
+                    </div>
+                </div>
+                <div class="carousel-item" id="testi-content">
+                    <div class="testi-img" id="testi-2"></div>
+                    <div class="testi-text">
+                        <p>
+                            "Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                            Fuga quidem, reiciendis eligendi ab at tempora dolorum esse delectus corrupti quas qui illo optio porro itaque quia, 
+                            minus eum in animi."
+                        </p>
+                    </div>
+                </div>
+                <div class="carousel-item" id="testi-content">
+                    <div class="testi-img" id="testi-3"></div>
+                    <div class="testi-text">
+                    <p>
+                        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                        Fuga quidem, reiciendis eligendi ab at tempora dolorum esse delectus corrupti quas qui illo optio porro itaque quia, 
+                        minus eum in animi."
+                    </p>
+                    </div>
+                </div>
+            </div>
+
+            <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+              </a>
+              <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+              </a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+
+    <section id="contacts">
+        <h2>Message Us</h2>
+        <div class="contact-container">
+            <div class="contact-img"></div>
+            <form class="contact-form">
+
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" value="Name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="text" class="form-control" value="Email">
+                </div>
+                <div class="form-group">
+                    <label for="name">Message</label>
+                    <textarea type="text" class="form-control" value="Message"></textarea>
+                </div>
+                <button class="btn">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+
+    <footer>
+        
+        <div class="footer-container">
+            <div class="footer-logo"></div>
+            <div class="footer-schedule">
+                <ul class="schedule-list">
+                    <li>Opens at</li>
+                    <li>Mon-Fri 9am-8pm</li>
+                    <li>Sat 12am-8pm</li>
+                    <li>Closed at Sunday</li>
+                </ul>
+            </div>
+            <div class="footer-address">
+                <address>
+                    <i class="fas fa-map-marker-alt"></i> 13th St. South Beach
+                    California, US 54120
+                </address>
+                <phone>
+                    <i class="fas fa-phone"></i> (1) 484 1234567
+                </phone>
+            </div>
+            <div class="footer-nav">
+                <ul class="footer-nav-list">
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <ul class="footer-nav-links">
+                    <li><a href=""><i class="fab fa-facebook"></i></a></li>
+                    <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                    <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                </ul>
+            </div>
+         </div>
+         <div class="copyright">
+             <p>Copyright &copy; 2021 Senyor Barbero | All Rights Reserved</p>
+         </div>
+    </footer>
+
+    
+    
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

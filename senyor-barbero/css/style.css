@@ -1,0 +1,352 @@
+/* Global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    line-height: 1.6em;
+}
+
+h1, h2, h3 {
+    font-family: 'Karantina', cursive;
+}
+
+h1 {
+    font-size: 10rem;
+}
+
+h2 {
+    font-size: 4rem;
+    text-align: center;
+}
+
+h3 {
+    font-size: 2rem;
+}
+p {
+    font-family: 'Poppins', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover,
+button:hover {
+    transition: all 0.2s ease;
+    text-decoration: none;
+}
+
+/* Newsletter */
+
+
+
+/* Navigation */
+.menu {
+    display: none;
+}
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+.header-scrolled {
+    background-color: #191a1c;
+    padding: 12px;
+    opacity: 75%;
+}
+
+.nav-list {
+    display: inherit;
+    margin-right: 2rem;
+    justify-content: center;
+}
+
+.nav-list li {
+    margin-right: 1.5rem;
+}
+
+.nav-links {
+    display: inherit;
+    margin-left: 2rem;
+    justify-content: center;
+}
+.nav-links li {
+    margin-left: 1.5rem;
+}
+.nav-list a,
+.nav-links a {
+    color: white;
+    font-size: 18px;
+}
+.nav-list a,
+.nav-links a {
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+}
+
+.nav-list a.active {
+    color: #ffb71d;
+}
+
+.nav-list a:hover,
+.nav-links a:hover {
+    color: #f3f3f373;
+}
+.logo {
+    width: 10rem;
+    margin-right: 4rem;
+}
+
+
+/* Hero Banner */
+
+.hero-banner {
+    background-image: url("../assets/hero-banner.jpg");
+    background-size: cover;
+    background-blend-mode: overlay;
+    min-height: 100vh;
+    width: 100vw;
+}
+
+.hero-banner-container {
+    background-color: rgba(51, 51, 51, 0.25);
+    background-blend-mode: overlay;
+    position: absolute;
+    top: 10rem;
+    padding: 5rem;
+    width: 100vw;
+    text-align: center;
+    align-self: center;
+    transform: skewY(-11deg);
+    opacity: 100%;
+}
+.hero-banner-content {
+    transform: skewY(11deg);
+    margin: auto;
+    color: white;
+    
+}
+
+.btn {
+    background-color: #ffb71d;
+    font-size: 1rem;
+    padding: 1rem 1.5rem;
+    border-radius: 5px;
+    border: none;
+    text-transform: uppercase;
+    margin-top: 2rem;
+}
+.btn:hover {
+    background-color: #191a1c !important;
+    color: white;
+}
+
+
+/* Service Section */
+#services {
+    background-image: url("../assets/sevices.jpg");
+    background-color: #191a1c;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-blend-mode: overlay;
+    min-height: 100vh;
+    color: white;
+    padding: 1.5rem 4rem;
+}
+#services h2 {
+    padding: 1rem 0;
+}
+.service-container {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-self: center;
+}
+.service-img {
+    background-repeat: no-repeat;
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 500px;
+    height: 200px;
+    margin-left: 15rem;
+}
+#cut {
+    background-image: url("../assets/classic-cut.jpg");
+    background-position-x: center;
+}
+#shave {
+    background-image: url("../assets/fade-cut.jpg");
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+#trim {
+    background-image: url("../assets/beard-trim.jpg");
+    background-size: cover;
+    background-position-x: -4rem;
+}
+.service-content {
+    margin-left: 10rem;
+    padding-top: 3rem;
+}
+.service-content a {
+    color: white;
+}
+.service-content a:hover {
+    color: #ffb71d;
+}
+
+/* About Us */
+#about {
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+    margin: 1rem 4rem;
+}
+.about-img {
+    background-image: url("../assets/about-us.jpg");
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    background-size: contain;
+    width: 100%;
+    opacity: 80%;
+    border-radius: 2rem;
+}
+.about-container {
+    padding-top: 10rem;
+    margin-right: 2rem;
+    text-align: center;
+}
+.about-container h2 {
+    margin-bottom: 5rem;
+}
+
+/* Testimonials */
+
+#testimonials {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    min-height: 70vh;
+    background-color: #191a1c;
+    color: white;
+}
+#testimonials h2 {
+    padding-top: 2rem;
+}
+
+.testi-img {
+    border: 1px white solid;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 20px;
+    margin-left: 37.5rem;
+}
+.testi-text {
+    padding: 2rem 4rem;
+}
+#testi-1 {
+    background-image: url("../assets/testimonial-1.jpg");
+}
+
+#testi-2 {
+    background-image: url("../assets/testimonial-2.jpg");
+    background-position-x: center;
+}
+
+#testi-3 {
+    background-image: url("../assets/testimonial-3.jpg");
+}
+
+/* Contact Section */
+#contacts {
+    margin: 2rem 4rem;
+}
+.contact-container {
+    display: flex;
+    flex-flow: row, wrap;
+}
+.contact-img {
+    background-image: url("../assets/contact.jpg");
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    width: 50vw;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+.contact-form {
+    margin-left: 2rem;
+    margin-top: 5rem;
+}
+.form-group label {
+    width: 30vw;
+}
+.contact-form button {
+    margin-top: 2rem;
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+}
+.footer-logo {
+    background-image: url("../assets/logo4.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 150px;
+    height: 150px;
+}
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 5rem;
+}
+.footer-nav a,
+.footer-links a {
+    color: #191a1c;
+}
+.footer-nav a:hover,
+.footer-links a:hover {
+    color: #ffb71d;
+}
+.footer-links a {
+    font-size: 20px;
+}
+
+.copyright {
+    background-color: #191a1c;
+    text-align: center;
+    color: white;
+    padding: 1rem 0;
+}
+
+
+
+
+
+
+
