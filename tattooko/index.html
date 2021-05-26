@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <title>***TATTOKO | Actually this is a code generator ;)</title>
+</head>
+<body>
+
+    <div class="jumbotron text-center rounded-0" id="title-container">
+        <h1>TattooKo</h1>
+    </div>
+
+    <div class="container">
+        <div class="container row">
+            <!-- Email Form -->
+            <div class="col-sm-6">
+                <div class="form-group" id="email-form">
+                    <input type="email" class="form-control bg-dark text-white rounded-0" name="email" id="email-id" placeholder="Amin na email address mo." value="">
+                    
+                    <div class="text-right">
+                        
+
+                        <span class="text-danger"></span>
+                        <br>
+                        <button type="button" class="btn btn-dark mt-3 rounded-0 text-center" id="generate">Get your QR Code</button>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+
+            <!-- Generated QR Code -->
+            <div class="col-sm-6" id="qr-container">
+                
+                    <div id="qrcode"></div>
+                
+            </div>
+        </div>
+    </div>
+
+    <div class="footer text-center mt-4" id="footer-text">
+        <h6>tattooko &copy; 2021. All rights reserved.</h6>
+    </div>
+
+
+
+    <!-- QR Code -->
+    <script defer src="qrcode.js"></script>
+    <script defer src="qrcode.min.js"></script>
+
+    <!-- jQuery-->
+    <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- JS -->
+    <script defer src="app.js"></script>
+
+    
+</body>
+</html>
