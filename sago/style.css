@@ -1,0 +1,142 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    overflow: hidden;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fffdd0
+}
+
+section {
+    min-height: 100vh;
+    width: 100%;
+    padding: 2rem 5rem;
+}
+header {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0 4rem;
+}
+.logo {
+    width: 150px;
+}
+.menu {
+    display: none;
+    border: none;
+    background-color: transparent;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: black;
+    margin-right: 2rem;
+}
+.nav-list a:hover {
+    text-decoration: underline;
+    transition: all 0.3s ease-in;
+}
+
+.hero-banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5rem;
+}
+.title-banner {
+    padding-right: 15rem;
+}
+.title-banner h1 {
+    line-height: 2rem;
+    margin-bottom: 1rem;
+}
+.title-banner span {
+    font-weight: 800;
+    color: #0d6ebd;
+    font-size: 50px;
+    margin-left: 15px;
+}
+.button-a {
+    border: none;
+    border-radius: 50px;
+    padding: 15px 20px;
+    color: white;
+    font-size: 20px;
+    margin-top: 2rem;
+    background-color: #0d6ebd;
+    cursor: pointer;
+}
+
+.button-a:hover {
+    opacity: 75%;
+    transition: all 0.3s ease;
+}
+.img-container img {
+    width: 250px;
+    margin-right: 7.5rem;
+}
+.thumb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.thumb img {
+    width: 35px;
+    margin-right: 1.5rem;
+}
+.thumb img:hover {
+    transform: translateY(-10px);
+    transition: all 0.3s ease-in-out;
+}
+.socmed {
+    position: absolute;
+    top: 15rem;
+    right: 5rem;
+    font-size: 30px;
+}
+.socmed li {
+    list-style: none;
+}
+.socmed a {
+    color: black;
+}
+.socmed a:hover {
+    opacity: 75%;
+    transition: all 0.3s ease-in-out;
+}
+
+.footer {
+    text-align: center;
+}
+.footer h2 {
+    font-size: 15px;
+}
+.footer p {
+    font-size: 12px;
+}
+
+.circle {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #e56f6c;
+    z-index: -1;
+    left: 0;
+    top: 0;
+    clip-path: circle(700px at right 800px);
+}
+
+
